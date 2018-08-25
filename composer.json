@@ -1,0 +1,15 @@
+{
+    "name": "basephp/users",
+    "description": "BasePHP Package: Users",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "basephp/framework" : "dev-master",
+        "basephp/database" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Base\\": "src/Base/"
+        }
+    }
+}
